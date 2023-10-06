@@ -16,15 +16,19 @@ button {
   margin: 0 auto;
 }
 .off {
-  margin-top: 40px;
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
-  background-color: #f5f0eb;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  color: #000000;
-  cursor: pointer;
-  padding: 8px;
+  font-family: "IBM Plex Mono";
+  font-size: 700;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  border: solid 0.125rem #121212;
+  box-shadow: 0.25rem 0.25rem #121212;
+  transition: transform 50ms, box-shadow 50ms;
+}
+.off:active {
+  transform: translate(0.125rem, 0.125rem);
+  box-shadow: 0.125rem 0.125rem #121212;
 }
 .off:hover {
   background-color: #19293a;
@@ -131,4 +135,27 @@ footer {
 .githubLink {
   text-decoration: underline;
   color: #d8a62c;
+  text-decoration: none;
+}
+.githubLink:hover {
+  text-decoration: underline;
+}
+.linkedin-profile {
+  color: #000000;
+  text-decoration: none;
+}
+.linkedin-profile:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
 }

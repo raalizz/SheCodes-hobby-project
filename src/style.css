@@ -52,6 +52,7 @@ button {
 body {
   background-image: url(https://images.pexels.com/photos/2748757/pexels-photo-2748757.jpeg?auto=compress&cs=tinysrgb&w=800);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .container {
   max-width: 600px;
